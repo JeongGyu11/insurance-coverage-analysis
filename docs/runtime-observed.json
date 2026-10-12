@@ -1,0 +1,15 @@
+{
+  "observed_at": "2026-10-12",
+  "note": "Packaging environment versions, not an assertion of original execution versions.",
+  "python_packages": {
+    "pypdf": "6.10.0",
+    "pdfplumber": "0.11.9",
+    "pypdfium2": "5.14.0",
+    "lxml": "6.1.1",
+    "pg8000": "not installed"
+  },
+  "node_packages": {
+    "pdfjs-dist": "5.6.205",
+    "@oai/artifact-tool": "2.8.93"
+  }
+}

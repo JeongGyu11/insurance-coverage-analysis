@@ -1,0 +1,37 @@
+# Runtime and source data
+.venv/
+venv/
+node_modules/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+# This repository is source-code-only
+*.pdf
+*.xlsx
+*.xls
+*.docx
+*.doc
+*.png
+*.jpg
+*.jpeg
+*.tiff
+*.zip
+*.txt
+!requirements.txt
+!requirements-db.txt
+work/**/*.json
+work/**/*.csv
+work/**/*.txt
+work/**/*.log
+work/**/*.html
+outputs/
+data/
+input/
+inputs/
+artifacts/

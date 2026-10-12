@@ -1,0 +1,4 @@
+pypdf
+pdfplumber
+pypdfium2
+lxml

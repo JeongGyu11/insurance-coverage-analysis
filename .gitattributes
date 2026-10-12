@@ -1,0 +1,7 @@
+work/** -text
+*.md text eol=lf
+*.json text eol=lf
+requirements*.txt text eol=lf
+tools/*.py text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf

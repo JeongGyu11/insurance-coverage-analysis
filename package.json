@@ -1,0 +1,13 @@
+{
+  "name": "insurance-coverage-analysis",
+  "private": true,
+  "type": "module",
+  "description": "Archived analysis scripts for 14 insurance coverage workbooks",
+  "scripts": {
+    "check": "python tools/check_archive.py --node node"
+  },
+  "dependencies": {
+    "pdfjs-dist": "5.6.205"
+  },
+  "codex_runtime_note": "@oai/artifact-tool must be supplied by an authorized compatible Codex runtime; it is not bundled or assumed publicly installable."
+}

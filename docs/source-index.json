@@ -1,0 +1,1997 @@
+{
+  "created": "2026-10-12",
+  "source_workspace": "C:\\Users\\FAS\\Documents\\Codex\\2026-10-06\\epdl",
+  "count": 145,
+  "note": "저장된 작업 스크립트 목록. 전체 실행 이력을 증명하지 않으며 입력·외부 도구 확인이 필요합니다.",
+  "files": [
+    {
+      "file": "work/abl_phrase_edit.mjs",
+      "company": "ABL생명",
+      "category": "문구 점검·수정",
+      "sha256": "86c3d3d4a4cbd4a531eeb4813d714ac8840fe9d8203d672093d1ea1f28bcce12",
+      "bytes": 1086,
+      "imports": [
+        "@oai/artifact-tool",
+        "node:fs/promises"
+      ],
+      "original_file": "work/abl_phrase_edit.mjs"
+    },
+    {
+      "file": "work/abl_phrase_scan.py",
+      "company": "ABL생명",
+      "category": "문구 점검·수정",
+      "sha256": "373c1b464d622722409d9a0d77bd003e8c9e13abbc066bae0eac088c822d8b48",
+      "bytes": 1483,
+      "imports": [
+        "json",
+        "lxml",
+        "pathlib",
+        "re",
+        "zipfile"
+      ],
+      "original_file": "work/abl_phrase_scan.py"
+    },
+    {
+      "file": "work/abl_phrase_verify.py",
+      "company": "ABL생명",
+      "category": "문구 점검·수정",
+      "sha256": "2e074d0f7a3b62ec61f9618db96c235aee9aea13b4a84d2a8a78713bc4c555c0",
+      "bytes": 961,
+      "imports": [
+        "abl_phrase_scan",
+        "json",
+        "pathlib"
+      ],
+      "original_file": "work/abl_phrase_verify.py"
+    },
+    {
+      "file": "work/abl_revise.py",
+      "company": "ABL생명",
+      "category": "내용 보완",
+      "sha256": "c8c1d97a4a0229113bf2b1ebce2dd13f3c51dc219a651164db0dc9b815a32b57",
+      "bytes": 19981,
+      "imports": [
+        "datetime",
+        "json",
+        "pathlib",
+        "re",
+        "shutil",
+        "statistics"
+      ],
+      "original_file": "work/abl_revise.py"
+    },
+    {
+      "file": "work/abl_revision_edit.mjs",
+      "company": "ABL생명",
+      "category": "결과 수정·재검증",
+      "sha256": "b7296455d2585612aaec34127809a3b9d12cdc7bc2c83c4aba0bed649a89c8c4",
+      "bytes": 3348,
+      "imports": [
+        "@oai/artifact-tool",
+        "node:fs/promises"
+      ],
+      "original_file": "work/abl_revision_edit.mjs"
+    },
+    {
+      "file": "work/abl_revision_verify.py",
+      "company": "ABL생명",
+      "category": "결과 수정·재검증",
+      "sha256": "f9cc648256a13d959f6ee291390f942f9dceecf0b398aef6d833a2bd6f1fcc86",
+      "bytes": 2474,
+      "imports": [
+        "json",
+        "lxml",
+        "pathlib",
+        "re",
+        "zipfile"
+      ],
+      "original_file": "work/abl_revision_verify.py"
+    },
+    {
+      "file": "work/aig_cells.py",
+      "company": "AIG손해보험",
+      "category": "셀 처리",
+      "sha256": "d312f12f70057c45da45ca999fa13ef2e1873d6a1d699f0f158a2cdceae04b3d",
+      "bytes": 1523,
+      "imports": [
+        "json",
+        "pathlib",
+        "pdfplumber",
+        "re"
+      ],
+      "original_file": "work/aig_cells.py"
+    },
+    {
+      "file": "work/aig_extract.py",
+      "company": "AIG손해보험",
+      "category": "PDF 추출",
+      "sha256": "80afb9d8b023437abf045705b6e78d4449bd58f0572b56e697d32c8443790bf1",
+      "bytes": 883,
+      "imports": [
+        "hashlib",
+        "json",
+        "pathlib",
+        "pdfplumber"
+      ],
+      "original_file": "work/aig_extract.py"
+    },
+    {
+      "file": "work/aig_phrase_scan.py",
+      "company": "AIG손해보험",
+      "category": "문구 점검·수정",
+      "sha256": "f8fd9d62c5839ca5fdb842f97694dbf5e5776c444fea9830002cbef81d3a55b3",
+      "bytes": 1491,
+      "imports": [
+        "json",
+        "lxml",
+        "pathlib",
+        "re",
+        "zipfile"
+      ],
+      "original_file": "work/aig_phrase_scan.py"
+    },
+    {
+      "file": "work/aig_policy.mjs",
+      "company": "AIG손해보험",
+      "category": "약관 추출 보조",
+      "sha256": "c3049e67860eae88352a63e1a8239d9d7bf644db3b92a25c4ae1b376f4789c41",
+      "bytes": 1515,
+      "imports": [
+        "node:fs/promises",
+        "pdfjs-dist/legacy/build/pdf.mjs"
+      ],
+      "original_file": "work/aig_policy.mjs"
+    },
+    {
+      "file": "work/aig_records.py",
+      "company": "AIG손해보험",
+      "category": "담보 레코드 구성",
+      "sha256": "3c3105120c9c4bdcf5375e07203f2ea25783b65aefed1a95fe539b26c22436d1",
+      "bytes": 5804,
+      "imports": [
+        "datetime",
+        "json",
+        "pathlib",
+        "re"
+      ],
+      "original_file": "work/aig_records.py"
+    },
+    {
+      "file": "work/aig_revise.py",
+      "company": "AIG손해보험",
+      "category": "내용 보완",
+      "sha256": "592d1e4ff71489a93c0502979723aee1bbe2bcaf6938b3b0ec4a7d416a49051c",
+      "bytes": 14161,
+      "imports": [
+        "datetime",
+        "json",
+        "pathlib",
+        "re",
+        "shutil",
+        "statistics"
+      ],
+      "original_file": "work/aig_revise.py"
+    },
+    {
+      "file": "work/aig_revision_edit.mjs",
+      "company": "AIG손해보험",
+      "category": "결과 수정·재검증",
+      "sha256": "69234b03792e9aa611e72a99093f073f15397bca38c07f8f538a5d797772b5f0",
+      "bytes": 2647,
+      "imports": [
+        "@oai/artifact-tool",
+        "node:fs/promises"
+      ],
+      "original_file": "work/aig_revision_edit.mjs"
+    },
+    {
+      "file": "work/aig_revision_verify.py",
+      "company": "AIG손해보험",
+      "category": "결과 수정·재검증",
+      "sha256": "0993f29dc5974c30d2456d896956f60c047b54fab621f62547bed3d49d4c53dd",
+      "bytes": 2003,
+      "imports": [
+        "json",
+        "lxml",
+        "pathlib",
+        "re",
+        "zipfile"
+      ],
+      "original_file": "work/aig_revision_verify.py"
+    },
+    {
+      "file": "work/aig_summary_tables.py",
+      "company": "AIG손해보험",
+      "category": "표 처리",
+      "sha256": "1e03066146f413a25b801b31efdb20a83a5ddd9866bd711f367bb8fae982d881",
+      "bytes": 904,
+      "imports": [
+        "json",
+        "pathlib",
+        "pdfplumber"
+      ],
+      "original_file": "work/aig_summary_tables.py"
+    },
+    {
+      "file": "work/aig_validate.py",
+      "company": "AIG손해보험",
+      "category": "검증",
+      "sha256": "1855f56897da3dd70b863df780756b574c8186539fafb527ea3d901ade17db02",
+      "bytes": 1733,
+      "imports": [
+        "collections",
+        "json",
+        "lxml",
+        "pathlib",
+        "zipfile"
+      ],
+      "original_file": "work/aig_validate.py"
+    },
+    {
+      "file": "work/aig_workbook.mjs",
+      "company": "AIG손해보험",
+      "category": "엑셀 생성",
+      "sha256": "c51e49fc78807ada19ed4dfc3e39a9698aaca91dd0ea9c921a10232b96f86982",
+      "bytes": 5883,
+      "imports": [
+        "@oai/artifact-tool",
+        "node:fs/promises"
+      ],
+      "original_file": "work/aig_workbook.mjs"
+    },
+    {
+      "file": "work/all_phrase_edit.mjs",
+      "company": "공통·환경 점검",
+      "category": "문구 점검·수정",
+      "sha256": "b6287b9267066439238e92fd7357fc7ee21d403363a4cb7d04f5e71d0efd525a",
+      "bytes": 1107,
+      "imports": [
+        "@oai/artifact-tool",
+        "node:fs/promises"
+      ],
+      "original_file": "work/all_phrase_edit.mjs"
+    },
+    {
+      "file": "work/all_phrase_prepare.py",
+      "company": "공통·환경 점검",
+      "category": "문구 점검·수정",
+      "sha256": "f5f4d398f84abdcf74295bf24f7d74e0b71a5a68760caa4f23df1bbe3d7d9e1d",
+      "bytes": 781,
+      "imports": [
+        "abl_phrase_scan",
+        "json",
+        "pathlib"
+      ],
+      "original_file": "work/all_phrase_prepare.py"
+    },
+    {
+      "file": "work/all_phrase_scan.py",
+      "company": "공통·환경 점검",
+      "category": "문구 점검·수정",
+      "sha256": "69f5bfeb86650bca8bef7bd0a3e0fae58ba233767cc9af02eb65c201cdd93ee0",
+      "bytes": 1239,
+      "imports": [
+        "abl_phrase_scan",
+        "json",
+        "pathlib",
+        "re"
+      ],
+      "original_file": "work/all_phrase_scan.py"
+    },
+    {
+      "file": "work/all_phrase_verify.py",
+      "company": "공통·환경 점검",
+      "category": "문구 점검·수정",
+      "sha256": "04ef3d5e15728f3272fb8b4cae4b2e727a447683ddfbeaba21eb46aaede731cd",
+      "bytes": 839,
+      "imports": [
+        "abl_phrase_scan",
+        "json",
+        "pathlib"
+      ],
+      "original_file": "work/all_phrase_verify.py"
+    },
+    {
+      "file": "work/audit.py",
+      "company": "ABL생명",
+      "category": "대조·검토 보조",
+      "sha256": "9687076aa5e112ceb8cc31ca94e392f3853d3d513bd65297e57a77032e735bba",
+      "bytes": 1193,
+      "imports": [
+        "json",
+        "pathlib",
+        "re"
+      ],
+      "original_file": "work/audit.py"
+    },
+    {
+      "file": "work/build_records.py",
+      "company": "ABL생명",
+      "category": "담보 레코드 구성",
+      "sha256": "6d913b399fb87dcfc6ceccda47152a9f938ef0480a7e86f22109b62cff54a6f8",
+      "bytes": 12550,
+      "imports": [
+        "datetime",
+        "json",
+        "pathlib",
+        "re"
+      ],
+      "original_file": "work/build_records.py"
+    },
+    {
+      "file": "work/create_workbook.mjs",
+      "company": "ABL생명",
+      "category": "엑셀 생성",
+      "sha256": "eaa3b8bd43632551797c337e23645eb322cffbf7345feada709e38511f036ec2",
+      "bytes": 7341,
+      "imports": [
+        "@oai/artifact-tool",
+        "node:fs/promises",
+        "node:path"
+      ],
+      "original_file": "work/create_workbook.mjs"
+    },
+    {
+      "file": "work/db_cells.py",
+      "company": "DB생명",
+      "category": "셀 처리",
+      "sha256": "08e43687a3e002db10f05b1a6646ad0570b22fbd22c1b6e47fac79eed10f2f46",
+      "bytes": 942,
+      "imports": [
+        "json",
+        "pathlib",
+        "pdfplumber"
+      ],
+      "original_file": "work/db_cells.py"
+    },
+    {
+      "file": "work/db_inventory.py",
+      "company": "DB생명",
+      "category": "원본 목록·구조 조사",
+      "sha256": "1104cbba2a4daef99d800b5d07b284076ca334e623c5dac0d7314f723962e770",
+      "bytes": 972,
+      "imports": [
+        "hashlib",
+        "json",
+        "pathlib",
+        "zipfile"
+      ],
+      "original_file": "work/db_inventory.py"
+    },
+    {
+      "file": "work/db_phrase_scan.py",
+      "company": "DB생명",
+      "category": "문구 점검·수정",
+      "sha256": "7a2968caacdfd453a4f71bdb2d40136b533a56081506811cf5a8a210fbc3b980",
+      "bytes": 1481,
+      "imports": [
+        "json",
+        "lxml",
+        "pathlib",
+        "re",
+        "zipfile"
+      ],
+      "original_file": "work/db_phrase_scan.py"
+    },
+    {
+      "file": "work/db_records.py",
+      "company": "DB생명",
+      "category": "담보 레코드 구성",
+      "sha256": "0ac906aaf0db0c31f5111d3bdbc5f4fab2a6a658791939db672a18520d9159ad",
+      "bytes": 4545,
+      "imports": [
+        "datetime",
+        "json",
+        "pathlib",
+        "re"
+      ],
+      "original_file": "work/db_records.py"
+    },
+    {
+      "file": "work/db_revise.py",
+      "company": "DB생명",
+      "category": "내용 보완",
+      "sha256": "b4b5aadb3716ad90a95b4d4aa5eac0b5aa5dafb6a6800e5b85f274145aa4bd3c",
+      "bytes": 6821,
+      "imports": [
+        "datetime",
+        "json",
+        "pathlib",
+        "re",
+        "shutil"
+      ],
+      "original_file": "work/db_revise.py"
+    },
+    {
+      "file": "work/db_revision_edit.mjs",
+      "company": "DB생명",
+      "category": "결과 수정·재검증",
+      "sha256": "dff1bc35a10e69064616cf3fbcf164b3846e1bd58eaf63039a51274999ec0ae9",
+      "bytes": 2877,
+      "imports": [
+        "@oai/artifact-tool",
+        "node:fs/promises"
+      ],
+      "original_file": "work/db_revision_edit.mjs"
+    },
+    {
+      "file": "work/db_revision_verify.py",
+      "company": "DB생명",
+      "category": "결과 수정·재검증",
+      "sha256": "ed1197cc91dbeb83ab71521df01372ba4b918c7b55423158a99ca01be3359271",
+      "bytes": 2167,
+      "imports": [
+        "json",
+        "lxml",
+        "pathlib",
+        "re",
+        "zipfile"
+      ],
+      "original_file": "work/db_revision_verify.py"
+    },
+    {
+      "file": "work/db_text.mjs",
+      "company": "DB생명",
+      "category": "PDF 텍스트 추출",
+      "sha256": "20e8c0de48123a07c6603e3532ddcb82ce14daf4e35633577a87d639b07ebf3c",
+      "bytes": 1504,
+      "imports": [
+        "node:fs/promises",
+        "pdfjs-dist/legacy/build/pdf.mjs"
+      ],
+      "original_file": "work/db_text.mjs"
+    },
+    {
+      "file": "work/db_validate.py",
+      "company": "DB생명",
+      "category": "검증",
+      "sha256": "1c374417d3cac78652ffb8a26fcbb3fe05262a10345c9d204a4055fc3dc330e2",
+      "bytes": 1449,
+      "imports": [
+        "json",
+        "lxml",
+        "pathlib",
+        "zipfile"
+      ],
+      "original_file": "work/db_validate.py"
+    },
+    {
+      "file": "work/db_workbook.mjs",
+      "company": "DB생명",
+      "category": "엑셀 생성",
+      "sha256": "c62367d2acf85da2f06463704927b90d3310a46ad8815a1543f33554afb8f55b",
+      "bytes": 4990,
+      "imports": [
+        "@oai/artifact-tool",
+        "node:fs/promises"
+      ],
+      "original_file": "work/db_workbook.mjs"
+    },
+    {
+      "file": "work/extract.py",
+      "company": "ABL생명",
+      "category": "PDF 추출",
+      "sha256": "3187252c656815e492d53110842f53e15b2edb5a05e71d497501db0d6ea6fb94",
+      "bytes": 1009,
+      "imports": [
+        "hashlib",
+        "json",
+        "pathlib",
+        "pypdf"
+      ],
+      "original_file": "work/extract.py"
+    },
+    {
+      "file": "work/extract_plumber.py",
+      "company": "ABL생명",
+      "category": "PDF 추출",
+      "sha256": "247451922642e63f70f13d03cdada0f794f98d7954cc3af1db6fdc971c7add13",
+      "bytes": 1092,
+      "imports": [
+        "hashlib",
+        "json",
+        "pathlib",
+        "pdfplumber"
+      ],
+      "original_file": "work/extract_plumber.py"
+    },
+    {
+      "file": "work/final_check.mjs",
+      "company": "ABL생명",
+      "category": "최종 점검",
+      "sha256": "f6693821ec17344b5441d9486b676659bf5bd1e0e38613d20272eb6beadd38c7",
+      "bytes": 494,
+      "imports": [
+        "@oai/artifact-tool"
+      ],
+      "original_file": "work/final_check.mjs"
+    },
+    {
+      "file": "work/fubon_extract.py",
+      "company": "푸본현대생명",
+      "category": "PDF 추출",
+      "sha256": "44d1e1c6e61183388c73b02d716c72225b5cccdba91caf4ea172b0faacd7b577",
+      "bytes": 883,
+      "imports": [
+        "hashlib",
+        "json",
+        "pathlib",
+        "pypdfium2"
+      ],
+      "original_file": "work/fubon_extract.py"
+    },
+    {
+      "file": "work/fubon_records.py",
+      "company": "푸본현대생명",
+      "category": "담보 레코드 구성",
+      "sha256": "3253acbb6f7e71f3a01ae7ca8e368b192e8445a09f904f3034c4bf911f7d2cd7",
+      "bytes": 24359,
+      "imports": [
+        "collections",
+        "copy",
+        "datetime",
+        "json",
+        "pathlib",
+        "re"
+      ],
+      "original_file": "work/fubon_records.py"
+    },
+    {
+      "file": "work/fubon_tables.py",
+      "company": "푸본현대생명",
+      "category": "표 처리",
+      "sha256": "019d090d4655e0fecc80b5152c75730eed534b3fcaf0716b1d2d3a1d3213f312",
+      "bytes": 2129,
+      "imports": [
+        "json",
+        "pathlib",
+        "pdfplumber",
+        "re"
+      ],
+      "original_file": "work/fubon_tables.py"
+    },
+    {
+      "file": "work/fubon_verify.py",
+      "company": "푸본현대생명",
+      "category": "검증",
+      "sha256": "4061f883dd7288b021dbd7644215842e3158400151e95ef3f97a85332170769a",
+      "bytes": 3294,
+      "imports": [
+        "json",
+        "lxml",
+        "pathlib",
+        "re",
+        "zipfile"
+      ],
+      "original_file": "work/fubon_verify.py"
+    },
+    {
+      "file": "work/fubon_workbook.mjs",
+      "company": "푸본현대생명",
+      "category": "엑셀 생성",
+      "sha256": "fccab9ea5736c524bf4fa28db382b53620acc0891dfc95ee33b1dc0622612ba1",
+      "bytes": 7162,
+      "imports": [
+        "@oai/artifact-tool",
+        "node:fs/promises"
+      ],
+      "original_file": "work/fubon_workbook.mjs"
+    },
+    {
+      "file": "work/heungkuk_extract.py",
+      "company": "흥국화재",
+      "category": "PDF 추출",
+      "sha256": "89e16f68cf0cf333b9d9098a4c81e21573cbdb6f1669c9275c4338a12f507eff",
+      "bytes": 882,
+      "imports": [
+        "hashlib",
+        "json",
+        "pathlib",
+        "pypdfium2"
+      ],
+      "original_file": "work/heungkuk_extract.py"
+    },
+    {
+      "file": "work/heungkuk_finalcheck.py",
+      "company": "흥국화재",
+      "category": "최종 점검",
+      "sha256": "bb95839a39055668554362c85622639733d8cc70b611d0cc8aad0ec8d1a30741",
+      "bytes": 2823,
+      "imports": [
+        "json",
+        "pathlib",
+        "re"
+      ],
+      "original_file": "work/heungkuk_finalcheck.py"
+    },
+    {
+      "file": "work/heungkuk_finish.py",
+      "company": "흥국화재",
+      "category": "최종 정리",
+      "sha256": "1acc3c650dac77f5218dfac94692328277687a8a35f1ada01db65eea2b20fb3b",
+      "bytes": 13689,
+      "imports": [
+        "collections",
+        "datetime",
+        "json",
+        "pathlib",
+        "re",
+        "statistics",
+        "unicodedata"
+      ],
+      "original_file": "work/heungkuk_finish.py"
+    },
+    {
+      "file": "work/heungkuk_life_digest.py",
+      "company": "흥국생명",
+      "category": "표 정리",
+      "sha256": "7c1334a82b6186a5a102945547ed1b50e513e9d9a9511fc1841176daeebe11c1",
+      "bytes": 575,
+      "imports": [
+        "json",
+        "pathlib",
+        "re"
+      ],
+      "original_file": "work/heungkuk_life_digest.py"
+    },
+    {
+      "file": "work/heungkuk_life_extract.py",
+      "company": "흥국생명",
+      "category": "PDF 추출",
+      "sha256": "193b914795d31686cc8ab677bb6eb24a79ebc7ddcc968904d23021232888ff9a",
+      "bytes": 887,
+      "imports": [
+        "hashlib",
+        "json",
+        "pathlib",
+        "pypdfium2"
+      ],
+      "original_file": "work/heungkuk_life_extract.py"
+    },
+    {
+      "file": "work/heungkuk_life_records.py",
+      "company": "흥국생명",
+      "category": "담보 레코드 구성",
+      "sha256": "722daab4c413c0a90e540f5fbfaa436964758ab53e45a0b0b7f5d86b0e44a974",
+      "bytes": 31413,
+      "imports": [
+        "datetime",
+        "json",
+        "pathlib",
+        "re"
+      ],
+      "original_file": "work/heungkuk_life_records.py"
+    },
+    {
+      "file": "work/heungkuk_life_tables.py",
+      "company": "흥국생명",
+      "category": "표 처리",
+      "sha256": "3bcd73f78a275c59569dbbe002676ebde0824916fcf32ee2a7eb84652f26976f",
+      "bytes": 1870,
+      "imports": [
+        "json",
+        "pathlib",
+        "pdfplumber",
+        "re"
+      ],
+      "original_file": "work/heungkuk_life_tables.py"
+    },
+    {
+      "file": "work/heungkuk_life_verify.py",
+      "company": "흥국생명",
+      "category": "검증",
+      "sha256": "6670cbf0b8086e838834d973a0443912053c0d983dbd47f51993980ad099486e",
+      "bytes": 2411,
+      "imports": [
+        "hashlib",
+        "json",
+        "lxml",
+        "pathlib",
+        "re",
+        "zipfile"
+      ],
+      "original_file": "work/heungkuk_life_verify.py"
+    },
+    {
+      "file": "work/heungkuk_life_workbook.mjs",
+      "company": "흥국생명",
+      "category": "엑셀 생성",
+      "sha256": "cba0ba5fd759bfa74a91e4fca5a5bfbd5c456319d53f6fda08057f5598e9f557",
+      "bytes": 5977,
+      "imports": [
+        "@oai/artifact-tool",
+        "node:fs/promises"
+      ],
+      "original_file": "work/heungkuk_life_workbook.mjs"
+    },
+    {
+      "file": "work/heungkuk_polish.py",
+      "company": "흥국화재",
+      "category": "내용 정리",
+      "sha256": "ec05ba4b5c065f9602c7e4f26b0369fefa99f8e90482ec22ffecd4813b12d019",
+      "bytes": 4584,
+      "imports": [
+        "json",
+        "pathlib",
+        "re",
+        "unicodedata"
+      ],
+      "original_file": "work/heungkuk_polish.py"
+    },
+    {
+      "file": "work/heungkuk_records.py",
+      "company": "흥국화재",
+      "category": "담보 레코드 구성",
+      "sha256": "cc9d9f5d2f7de020ef2e4b26335cbe65094d9041b05c8ca3328ed89057eab48b",
+      "bytes": 7764,
+      "imports": [
+        "datetime",
+        "difflib",
+        "json",
+        "pathlib",
+        "re"
+      ],
+      "original_file": "work/heungkuk_records.py"
+    },
+    {
+      "file": "work/heungkuk_sections.py",
+      "company": "흥국화재",
+      "category": "구간·목차 식별",
+      "sha256": "b547e03b82b48b636cdbd0d1f36be83de8c3800425d5ab63e33ec9cc3f1a3239",
+      "bytes": 2081,
+      "imports": [
+        "bisect",
+        "json",
+        "pathlib",
+        "re"
+      ],
+      "original_file": "work/heungkuk_sections.py"
+    },
+    {
+      "file": "work/heungkuk_tables.py",
+      "company": "흥국화재",
+      "category": "표 처리",
+      "sha256": "54d8e8ac38a9215b05a65c6b4be1c3691ba2808f2a86a258d8bb175639521891",
+      "bytes": 1496,
+      "imports": [
+        "copy",
+        "json",
+        "pathlib",
+        "pdfplumber",
+        "re"
+      ],
+      "original_file": "work/heungkuk_tables.py"
+    },
+    {
+      "file": "work/heungkuk_toc.py",
+      "company": "흥국화재",
+      "category": "목차 확인",
+      "sha256": "6b0832ad5c98b173a59bdd06d03ab8c78c2c861f06565097d145cc0ec5798295",
+      "bytes": 1227,
+      "imports": [
+        "json",
+        "pathlib",
+        "re"
+      ],
+      "original_file": "work/heungkuk_toc.py"
+    },
+    {
+      "file": "work/heungkuk_verify.py",
+      "company": "흥국화재",
+      "category": "검증",
+      "sha256": "e05363ad46f30268eaa6ef223654731a8647af501e9d2a1e047b5034c6390169",
+      "bytes": 2632,
+      "imports": [
+        "json",
+        "lxml",
+        "pathlib",
+        "re",
+        "zipfile"
+      ],
+      "original_file": "work/heungkuk_verify.py"
+    },
+    {
+      "file": "work/heungkuk_wallet.py",
+      "company": "흥국화재",
+      "category": "보조 담보 보완",
+      "sha256": "fb7f11dd3cce8680327d3280275eb1382cd230a716f9a19f360a6915a37de70f",
+      "bytes": 6343,
+      "imports": [
+        "copy",
+        "json",
+        "pathlib",
+        "re"
+      ],
+      "original_file": "work/heungkuk_wallet.py"
+    },
+    {
+      "file": "work/heungkuk_workbook.mjs",
+      "company": "흥국화재",
+      "category": "엑셀 생성",
+      "sha256": "d9218ed3616d68c4c8cefe6f83787c22d435adfe34dcd113879296a553045181",
+      "bytes": 7790,
+      "imports": [
+        "@oai/artifact-tool",
+        "node:fs/promises"
+      ],
+      "original_file": "work/heungkuk_workbook.mjs"
+    },
+    {
+      "file": "work/hyundai_extra_audit.py",
+      "company": "현대해상",
+      "category": "대조·검토 보조",
+      "sha256": "c7fcabb806875cef8d98e87a5c12b298177c4edac170ff4746bb4909546a39b9",
+      "bytes": 515,
+      "imports": [
+        "json",
+        "pathlib",
+        "re"
+      ],
+      "original_file": "work/hyundai_extra_audit.py"
+    },
+    {
+      "file": "work/hyundai_extract.py",
+      "company": "현대해상",
+      "category": "PDF 추출",
+      "sha256": "413d10803bee06c21ec7e74c45fbfb4fd9994f5e93f2e9a0c415b4772b3e6949",
+      "bytes": 881,
+      "imports": [
+        "hashlib",
+        "json",
+        "pathlib",
+        "pypdfium2"
+      ],
+      "original_file": "work/hyundai_extract.py"
+    },
+    {
+      "file": "work/hyundai_finalize.py",
+      "company": "현대해상",
+      "category": "최종 점검",
+      "sha256": "2e2eab0bc5d254eb1cf061190d2c4e5105fc9436b780953178cf2a2f380faccf",
+      "bytes": 2351,
+      "imports": [
+        "collections",
+        "json",
+        "pathlib",
+        "re"
+      ],
+      "original_file": "work/hyundai_finalize.py"
+    },
+    {
+      "file": "work/hyundai_headers.py",
+      "company": "현대해상",
+      "category": "헤더 확인",
+      "sha256": "d1d8e9d2f635f810f0959a9a72b819de7b36aa0870892489c623f600fd81a9f5",
+      "bytes": 2547,
+      "imports": [
+        "bisect",
+        "json",
+        "pathlib",
+        "re"
+      ],
+      "original_file": "work/hyundai_headers.py"
+    },
+    {
+      "file": "work/hyundai_inventory.py",
+      "company": "현대해상",
+      "category": "원본 목록·구조 조사",
+      "sha256": "72c0a6bf586414003d239c09204f2037939a1eba8dd9aa7eb47216a37ecba3bb",
+      "bytes": 479,
+      "imports": [
+        "hashlib",
+        "json",
+        "pathlib",
+        "re"
+      ],
+      "original_file": "work/hyundai_inventory.py"
+    },
+    {
+      "file": "work/hyundai_merged_fix.py",
+      "company": "현대해상",
+      "category": "병합 표 보정",
+      "sha256": "c9a1bde96fe2b74fcbb26c03b26b0a1b18d8b812bc14d98f3ca93b5778a6ba5a",
+      "bytes": 935,
+      "imports": [
+        "json",
+        "pathlib",
+        "re"
+      ],
+      "original_file": "work/hyundai_merged_fix.py"
+    },
+    {
+      "file": "work/hyundai_pending_audit.py",
+      "company": "현대해상",
+      "category": "대조·검토 보조",
+      "sha256": "2d04addce0a3c5bb397ec6b66287190b70e4278b605bc198f805a6c412db89ae",
+      "bytes": 773,
+      "imports": [
+        "json",
+        "pathlib",
+        "re"
+      ],
+      "original_file": "work/hyundai_pending_audit.py"
+    },
+    {
+      "file": "work/hyundai_polish.py",
+      "company": "현대해상",
+      "category": "내용 정리",
+      "sha256": "52e73ddb5d220ad4364c903fc3f0c19c52fd3eee7359ac6cab771a11fae26480",
+      "bytes": 7917,
+      "imports": [
+        "collections",
+        "copy",
+        "json",
+        "pathlib",
+        "re"
+      ],
+      "original_file": "work/hyundai_polish.py"
+    },
+    {
+      "file": "work/hyundai_records.py",
+      "company": "현대해상",
+      "category": "담보 레코드 구성",
+      "sha256": "736e97ecf64dc00d43de6d3f6cc7ccd6004f946abf08a98600b22261de640cb0",
+      "bytes": 30964,
+      "imports": [
+        "collections",
+        "datetime",
+        "difflib",
+        "json",
+        "pathlib",
+        "re",
+        "unicodedata"
+      ],
+      "original_file": "work/hyundai_records.py"
+    },
+    {
+      "file": "work/hyundai_sections.py",
+      "company": "현대해상",
+      "category": "구간·목차 식별",
+      "sha256": "0039b7e21d60fa4f2996e6875f594b4b240ebc889b17f6ef0760431941357f8a",
+      "bytes": 3825,
+      "imports": [
+        "bisect",
+        "copy",
+        "json",
+        "pathlib",
+        "re"
+      ],
+      "original_file": "work/hyundai_sections.py"
+    },
+    {
+      "file": "work/hyundai_tables.py",
+      "company": "현대해상",
+      "category": "표 처리",
+      "sha256": "74ff80a55634a4d231239ff2d31506c9328e06fc452aa42cc4ea0d9831dc92b6",
+      "bytes": 2313,
+      "imports": [
+        "copy",
+        "json",
+        "pathlib",
+        "pdfplumber",
+        "pypdfium2",
+        "re"
+      ],
+      "original_file": "work/hyundai_tables.py"
+    },
+    {
+      "file": "work/hyundai_verify.py",
+      "company": "현대해상",
+      "category": "검증",
+      "sha256": "3c9e40e11159ceaf660ffa5118c9f465c72d183e96c5713aebd954f2a37782a7",
+      "bytes": 2162,
+      "imports": [
+        "hashlib",
+        "json",
+        "lxml",
+        "pathlib",
+        "re",
+        "zipfile"
+      ],
+      "original_file": "work/hyundai_verify.py"
+    },
+    {
+      "file": "work/hyundai_workbook.mjs",
+      "company": "현대해상",
+      "category": "엑셀 생성",
+      "sha256": "1138a1056375eb7d09520eb13a8ed41f20c32226846d470264f3be72309c30d9",
+      "bytes": 5067,
+      "imports": [
+        "@oai/artifact-tool",
+        "node:fs/promises"
+      ],
+      "original_file": "work/hyundai_workbook.mjs"
+    },
+    {
+      "file": "work/inspect_tables.py",
+      "company": "ABL생명",
+      "category": "표 처리",
+      "sha256": "737d7ab846d5df44bfd9d85a7b0b7d6a88303edbf6ae6fa5b50b32ba947f190a",
+      "bytes": 688,
+      "imports": [
+        "json",
+        "pathlib",
+        "re"
+      ],
+      "original_file": "work/inspect_tables.py"
+    },
+    {
+      "file": "work/kb_cells.py",
+      "company": "KB라이프생명",
+      "category": "셀 처리",
+      "sha256": "0e9a558d13fc47bc2e478ca9db1c570047763a29dffc484141edaff63d179073",
+      "bytes": 1028,
+      "imports": [
+        "json",
+        "pathlib",
+        "pdfplumber"
+      ],
+      "original_file": "work/kb_cells.py"
+    },
+    {
+      "file": "work/kb_inventory.py",
+      "company": "KB라이프생명",
+      "category": "원본 목록·구조 조사",
+      "sha256": "15a04d15078bd95917622f47c9cd03cd4daaaa7c3799e8648553167e8588ad74",
+      "bytes": 983,
+      "imports": [
+        "hashlib",
+        "json",
+        "pathlib",
+        "zipfile"
+      ],
+      "original_file": "work/kb_inventory.py"
+    },
+    {
+      "file": "work/kb_phrase_scan.py",
+      "company": "KB라이프생명",
+      "category": "문구 점검·수정",
+      "sha256": "963c617f20f1b363a49d622d6427697e0a2d713386175d521757715fc16ec98d",
+      "bytes": 1490,
+      "imports": [
+        "json",
+        "lxml",
+        "pathlib",
+        "re",
+        "zipfile"
+      ],
+      "original_file": "work/kb_phrase_scan.py"
+    },
+    {
+      "file": "work/kb_records.py",
+      "company": "KB라이프생명",
+      "category": "담보 레코드 구성",
+      "sha256": "ea2594efd456d5261789a3cd2aaa78da5e0dfdf5549d526dd928831ba8c4e888",
+      "bytes": 8026,
+      "imports": [
+        "datetime",
+        "json",
+        "pathlib",
+        "re"
+      ],
+      "original_file": "work/kb_records.py"
+    },
+    {
+      "file": "work/kb_revise.py",
+      "company": "KB라이프생명",
+      "category": "내용 보완",
+      "sha256": "3ad504e91401f356fd49b191358dfa5313456c1829bd8e75bc52e43cdffc724a",
+      "bytes": 9334,
+      "imports": [
+        "datetime",
+        "json",
+        "pathlib",
+        "re",
+        "shutil"
+      ],
+      "original_file": "work/kb_revise.py"
+    },
+    {
+      "file": "work/kb_revision_edit.mjs",
+      "company": "KB라이프생명",
+      "category": "결과 수정·재검증",
+      "sha256": "f2fdc0cb40388599fa13f28f3be5b7c2bad38535c197d29d9bd24b2abe5a97a6",
+      "bytes": 2640,
+      "imports": [
+        "@oai/artifact-tool",
+        "node:fs/promises"
+      ],
+      "original_file": "work/kb_revision_edit.mjs"
+    },
+    {
+      "file": "work/kb_revision_verify.py",
+      "company": "KB라이프생명",
+      "category": "결과 수정·재검증",
+      "sha256": "994120748f38462296189a0c09477d0e9b2095d47d8b638f3bb72d164ddd85f2",
+      "bytes": 2274,
+      "imports": [
+        "json",
+        "lxml",
+        "pathlib",
+        "re",
+        "zipfile"
+      ],
+      "original_file": "work/kb_revision_verify.py"
+    },
+    {
+      "file": "work/kb_text.mjs",
+      "company": "KB라이프생명",
+      "category": "PDF 텍스트 추출",
+      "sha256": "3a3df2507b6e8d30f777ab9c7c29eebc2ec3da64219267793d30bfc6c3cd3251",
+      "bytes": 1506,
+      "imports": [
+        "node:fs/promises",
+        "pdfjs-dist/legacy/build/pdf.mjs"
+      ],
+      "original_file": "work/kb_text.mjs"
+    },
+    {
+      "file": "work/kb_validate.py",
+      "company": "KB라이프생명",
+      "category": "검증",
+      "sha256": "fc26578ccf15bd0bc0a3d67df7f952d0f21fcfab0428ffb4ef21cd87adc38738",
+      "bytes": 1460,
+      "imports": [
+        "json",
+        "lxml",
+        "pathlib",
+        "zipfile"
+      ],
+      "original_file": "work/kb_validate.py"
+    },
+    {
+      "file": "work/kb_workbook.mjs",
+      "company": "KB라이프생명",
+      "category": "엑셀 생성",
+      "sha256": "9829519e46212935d158bbfdfbae8d7b9bba71d453b56916409d01588eb74f90",
+      "bytes": 5741,
+      "imports": [
+        "@oai/artifact-tool",
+        "node:fs/promises"
+      ],
+      "original_file": "work/kb_workbook.mjs"
+    },
+    {
+      "file": "work/kyobo_audit.py",
+      "company": "교보생명",
+      "category": "대조·검토 보조",
+      "sha256": "a93445e2640452defddb3c19733636bbe608da131e8204adf414dab9aa1c6a93",
+      "bytes": 843,
+      "imports": [
+        "json",
+        "pathlib",
+        "re"
+      ],
+      "original_file": "work/kyobo_audit.py"
+    },
+    {
+      "file": "work/kyobo_inventory.py",
+      "company": "교보생명",
+      "category": "원본 목록·구조 조사",
+      "sha256": "d1b314b876e049a32903663152f81f716391e5a77ee621032200cc0ff6d6a7c6",
+      "bytes": 983,
+      "imports": [
+        "hashlib",
+        "json",
+        "pathlib",
+        "zipfile"
+      ],
+      "original_file": "work/kyobo_inventory.py"
+    },
+    {
+      "file": "work/kyobo_records.py",
+      "company": "교보생명",
+      "category": "담보 레코드 구성",
+      "sha256": "233f52399db1bdd4e59367750d8f768565a7165ba1e71b98fa99769709dd6ab8",
+      "bytes": 10428,
+      "imports": [
+        "datetime",
+        "json",
+        "pathlib",
+        "re"
+      ],
+      "original_file": "work/kyobo_records.py"
+    },
+    {
+      "file": "work/kyobo_render_sources.py",
+      "company": "교보생명",
+      "category": "원문 이미지 렌더링",
+      "sha256": "8d1f0207c6f1cce51d639564532f803e60bdb484237a23d63e534aefdb6e6c65",
+      "bytes": 540,
+      "imports": [
+        "json",
+        "pathlib",
+        "subprocess"
+      ],
+      "original_file": "work/kyobo_render_sources.py"
+    },
+    {
+      "file": "work/kyobo_revise.py",
+      "company": "교보생명",
+      "category": "내용 보완",
+      "sha256": "d22b95881d4996bec09827d4813ee8d69259f4ae342e9e2d40661bf750658d2e",
+      "bytes": 9641,
+      "imports": [
+        "datetime",
+        "json",
+        "pathlib",
+        "re",
+        "shutil",
+        "statistics"
+      ],
+      "original_file": "work/kyobo_revise.py"
+    },
+    {
+      "file": "work/kyobo_revision_edit.mjs",
+      "company": "교보생명",
+      "category": "결과 수정·재검증",
+      "sha256": "bf57057352b73de63afc678fe5ceeb7d4ea3fed671c2ee93fbe0ee178adaf933",
+      "bytes": 2585,
+      "imports": [
+        "@oai/artifact-tool",
+        "node:fs/promises"
+      ],
+      "original_file": "work/kyobo_revision_edit.mjs"
+    },
+    {
+      "file": "work/kyobo_revision_verify.py",
+      "company": "교보생명",
+      "category": "결과 수정·재검증",
+      "sha256": "b38f24c538959e0226a937857169b674d36a33fb27290775b9501e7e167ce542",
+      "bytes": 1629,
+      "imports": [
+        "json",
+        "lxml",
+        "pathlib",
+        "re",
+        "zipfile"
+      ],
+      "original_file": "work/kyobo_revision_verify.py"
+    },
+    {
+      "file": "work/kyobo_sections.py",
+      "company": "교보생명",
+      "category": "구간·목차 식별",
+      "sha256": "56a361f31961611280d387e445356f71848f145ec41c4b835baf0fca62e4011c",
+      "bytes": 1247,
+      "imports": [
+        "json",
+        "pathlib",
+        "re"
+      ],
+      "original_file": "work/kyobo_sections.py"
+    },
+    {
+      "file": "work/kyobo_tables.py",
+      "company": "교보생명",
+      "category": "표 처리",
+      "sha256": "53e870a0a50758818ff55e7afd43338fd08f4bf25a22a8a32208ef6960e94e21",
+      "bytes": 2747,
+      "imports": [
+        "json",
+        "pathlib",
+        "pdfplumber",
+        "re",
+        "sys"
+      ],
+      "original_file": "work/kyobo_tables.py"
+    },
+    {
+      "file": "work/kyobo_text.mjs",
+      "company": "교보생명",
+      "category": "PDF 텍스트 추출",
+      "sha256": "bbf714819c1c1c4e830596f71da679c185e3babd1fdabc019ecafa5257819c98",
+      "bytes": 1520,
+      "imports": [
+        "node:fs/promises",
+        "pdfjs-dist/legacy/build/pdf.mjs"
+      ],
+      "original_file": "work/kyobo_text.mjs"
+    },
+    {
+      "file": "work/kyobo_validate.py",
+      "company": "교보생명",
+      "category": "검증",
+      "sha256": "14a5e22b25fa8ad9701ab414448bd59c1797149f2210694bbb66816458718f25",
+      "bytes": 1462,
+      "imports": [
+        "json",
+        "lxml",
+        "pathlib",
+        "zipfile"
+      ],
+      "original_file": "work/kyobo_validate.py"
+    },
+    {
+      "file": "work/kyobo_workbook.mjs",
+      "company": "교보생명",
+      "category": "엑셀 생성",
+      "sha256": "5fd7338338f504a8c5b3f59a0b98e8067769fa68ea7212b1e872ffbae3d97016",
+      "bytes": 5558,
+      "imports": [
+        "@oai/artifact-tool",
+        "node:fs/promises"
+      ],
+      "original_file": "work/kyobo_workbook.mjs"
+    },
+    {
+      "file": "work/lotte_inventory.py",
+      "company": "롯데손해보험",
+      "category": "원본 목록·구조 조사",
+      "sha256": "58931b1ce97edcf28c762b836839cfa5f9386b4b7df8f91dfdf6e08d2f3f4fcf",
+      "bytes": 989,
+      "imports": [
+        "hashlib",
+        "json",
+        "pathlib",
+        "zipfile"
+      ],
+      "original_file": "work/lotte_inventory.py"
+    },
+    {
+      "file": "work/lotte_positions.mjs",
+      "company": "롯데손해보험",
+      "category": "PDF 좌표 확인",
+      "sha256": "28a2955b702842483d69608c90ef75cc8d8762c04b90c0b060f105f9bfdc2222",
+      "bytes": 489,
+      "imports": [
+        "node:fs/promises",
+        "pdfjs-dist/legacy/build/pdf.mjs"
+      ],
+      "original_file": "work/lotte_positions.mjs"
+    },
+    {
+      "file": "work/lotte_records.py",
+      "company": "롯데손해보험",
+      "category": "담보 레코드 구성",
+      "sha256": "4c7a998c9f6dbd9949e4aa5b5217e6b4ef91e8c5c247ea3993aed6edd3135345",
+      "bytes": 16023,
+      "imports": [
+        "datetime",
+        "json",
+        "pathlib",
+        "re"
+      ],
+      "original_file": "work/lotte_records.py"
+    },
+    {
+      "file": "work/lotte_render_sources.py",
+      "company": "롯데손해보험",
+      "category": "원문 이미지 렌더링",
+      "sha256": "c78658f44883d104733ee2d60fc9bc4a2dbc72515df12517bd0dac5307c5ad41",
+      "bytes": 551,
+      "imports": [
+        "json",
+        "pathlib",
+        "subprocess"
+      ],
+      "original_file": "work/lotte_render_sources.py"
+    },
+    {
+      "file": "work/lotte_revise.py",
+      "company": "롯데손해보험",
+      "category": "내용 보완",
+      "sha256": "c362dffa29a1ff7bfbaf228904de87de31659e97d08233e1f8a1404b6dd36a58",
+      "bytes": 10707,
+      "imports": [
+        "datetime",
+        "json",
+        "pathlib",
+        "re",
+        "shutil",
+        "statistics"
+      ],
+      "original_file": "work/lotte_revise.py"
+    },
+    {
+      "file": "work/lotte_revision_edit.mjs",
+      "company": "롯데손해보험",
+      "category": "결과 수정·재검증",
+      "sha256": "68ec8c15312a82e6d70a84efa72c10bdda22e73d85729dd95bce49fdf9fedade",
+      "bytes": 2657,
+      "imports": [
+        "@oai/artifact-tool",
+        "node:fs/promises"
+      ],
+      "original_file": "work/lotte_revision_edit.mjs"
+    },
+    {
+      "file": "work/lotte_revision_verify.py",
+      "company": "롯데손해보험",
+      "category": "결과 수정·재검증",
+      "sha256": "83c1dc82661e1977d6de0342c9b72dbd7c3c2ba2920891c2463d07ca81217bec",
+      "bytes": 1633,
+      "imports": [
+        "json",
+        "lxml",
+        "pathlib",
+        "re",
+        "zipfile"
+      ],
+      "original_file": "work/lotte_revision_verify.py"
+    },
+    {
+      "file": "work/lotte_sections.py",
+      "company": "롯데손해보험",
+      "category": "구간·목차 식별",
+      "sha256": "b01cfd1b6cad26c699ec74f8a53e5e383d7938db6ced84f03cb552d1ebb01867",
+      "bytes": 2052,
+      "imports": [
+        "json",
+        "pathlib",
+        "re"
+      ],
+      "original_file": "work/lotte_sections.py"
+    },
+    {
+      "file": "work/lotte_text.mjs",
+      "company": "롯데손해보험",
+      "category": "PDF 텍스트 추출",
+      "sha256": "bcc6d6ca83b884f9f8cc56ffc938b506df49e958f435ae1f43043f2660e45ac9",
+      "bytes": 1599,
+      "imports": [
+        "node:fs/promises",
+        "pdfjs-dist/legacy/build/pdf.mjs"
+      ],
+      "original_file": "work/lotte_text.mjs"
+    },
+    {
+      "file": "work/lotte_validate.py",
+      "company": "롯데손해보험",
+      "category": "검증",
+      "sha256": "140d8b91c18a3218e464a221dd1171a5ba9f94a5a94b0d57fac7a5bd52ab820a",
+      "bytes": 1845,
+      "imports": [
+        "json",
+        "lxml",
+        "pathlib",
+        "zipfile"
+      ],
+      "original_file": "work/lotte_validate.py"
+    },
+    {
+      "file": "work/lotte_workbook.mjs",
+      "company": "롯데손해보험",
+      "category": "엑셀 생성",
+      "sha256": "8c0eb16b8729f108279ab806a3053b969530f346a7d0fadc353ea0ba3733f3d3",
+      "bytes": 6356,
+      "imports": [
+        "@oai/artifact-tool",
+        "node:fs/promises"
+      ],
+      "original_file": "work/lotte_workbook.mjs"
+    },
+    {
+      "file": "work/mirae_detail_revision.py",
+      "company": "미래에셋생명",
+      "category": "결과 수정·재검증",
+      "sha256": "13b7a769945832108da810fa4ce034e12971e94d3659fe31067181ad79942aa9",
+      "bytes": 33049,
+      "imports": [
+        "copy",
+        "json",
+        "pathlib",
+        "re"
+      ],
+      "original_file": "work/mirae_detail_revision.py"
+    },
+    {
+      "file": "work/mirae_inventory.py",
+      "company": "미래에셋생명",
+      "category": "원본 목록·구조 조사",
+      "sha256": "c9f01eb4faf2a7cba9ff2c54cd6d77da4ae34108accfa1e53144518c05ced763",
+      "bytes": 991,
+      "imports": [
+        "hashlib",
+        "json",
+        "pathlib",
+        "zipfile"
+      ],
+      "original_file": "work/mirae_inventory.py"
+    },
+    {
+      "file": "work/mirae_map_summary.py",
+      "company": "미래에셋생명",
+      "category": "요약 연결",
+      "sha256": "b6dedc3b21d44bbeef358fd52a525cc39e084efa14952a57bf095373280734e3",
+      "bytes": 1403,
+      "imports": [
+        "difflib",
+        "json",
+        "pathlib",
+        "re"
+      ],
+      "original_file": "work/mirae_map_summary.py"
+    },
+    {
+      "file": "work/mirae_ocr_batch.py",
+      "company": "미래에셋생명",
+      "category": "OCR 보조",
+      "sha256": "b1eb0945cf31fb5b441238c4e14f5db94434df31ce1dedce9a7d639bcd6b81a7",
+      "bytes": 1325,
+      "imports": [
+        "concurrent.futures",
+        "json",
+        "pathlib",
+        "subprocess"
+      ],
+      "original_file": "work/mirae_ocr_batch.py"
+    },
+    {
+      "file": "work/mirae_records.py",
+      "company": "미래에셋생명",
+      "category": "담보 레코드 구성",
+      "sha256": "da3af6a135221e6e7350955a7c61a1ca80f4a5b219fa95da6bf36f140ce5386c",
+      "bytes": 31890,
+      "imports": [
+        "datetime",
+        "json",
+        "mirae_detail_revision",
+        "pathlib",
+        "re"
+      ],
+      "original_file": "work/mirae_records.py"
+    },
+    {
+      "file": "work/mirae_sections.py",
+      "company": "미래에셋생명",
+      "category": "구간·목차 식별",
+      "sha256": "1f2c3cc5079bc532f28087e58fb279ba9d2fe176a64b130c97845633b7e4a552",
+      "bytes": 1198,
+      "imports": [
+        "json",
+        "pathlib",
+        "re"
+      ],
+      "original_file": "work/mirae_sections.py"
+    },
+    {
+      "file": "work/mirae_text.mjs",
+      "company": "미래에셋생명",
+      "category": "PDF 텍스트 추출",
+      "sha256": "32efb7b72486b05fabb5a58b70c20716a0c8131b6a4a29c95a995ba4f6e0e0bb",
+      "bytes": 1601,
+      "imports": [
+        "node:fs/promises",
+        "pdfjs-dist/legacy/build/pdf.mjs"
+      ],
+      "original_file": "work/mirae_text.mjs"
+    },
+    {
+      "file": "work/mirae_verify.py",
+      "company": "미래에셋생명",
+      "category": "검증",
+      "sha256": "54cb2a2718ff2f571054b7b2996f2ae842dc6c476eec062da28af51b9832df92",
+      "bytes": 3883,
+      "imports": [
+        "json",
+        "lxml",
+        "pathlib",
+        "re",
+        "zipfile"
+      ],
+      "original_file": "work/mirae_verify.py"
+    },
+    {
+      "file": "work/mirae_workbook.mjs",
+      "company": "미래에셋생명",
+      "category": "엑셀 생성",
+      "sha256": "15c0666645660e2014b15b92bea04d9fa2ffa0c8c0876216f1a444e259d8814d",
+      "bytes": 7055,
+      "imports": [
+        "@oai/artifact-tool",
+        "node:fs/promises"
+      ],
+      "original_file": "work/mirae_workbook.mjs"
+    },
+    {
+      "file": "work/nh_cells.py",
+      "company": "NH농협생명",
+      "category": "셀 처리",
+      "sha256": "cd4d5c454710bd022047df95b8f50f2c7ee728434e55f3ffa784e0cfd2966bc2",
+      "bytes": 1054,
+      "imports": [
+        "json",
+        "pathlib",
+        "pdfplumber"
+      ],
+      "original_file": "work/nh_cells.py"
+    },
+    {
+      "file": "work/nh_inventory.py",
+      "company": "NH농협생명",
+      "category": "원본 목록·구조 조사",
+      "sha256": "990737e55aa2d540c9e8ad7c0311973dd378c73d360636d1fae8339780ce0763",
+      "bytes": 980,
+      "imports": [
+        "hashlib",
+        "json",
+        "pathlib",
+        "zipfile"
+      ],
+      "original_file": "work/nh_inventory.py"
+    },
+    {
+      "file": "work/nh_nonlife_inventory.py",
+      "company": "NH농협손해보험",
+      "category": "원본 목록·구조 조사",
+      "sha256": "d9957486938472fa927bbd9683fe18399c0bd5fba1ca3ddd17616d52af16b13d",
+      "bytes": 1022,
+      "imports": [
+        "hashlib",
+        "json",
+        "pathlib",
+        "zipfile"
+      ],
+      "original_file": "work/nh_nonlife_inventory.py"
+    },
+    {
+      "file": "work/nh_nonlife_parse.py",
+      "company": "NH농협손해보험",
+      "category": "분석 보조",
+      "sha256": "734b83fedd9e55a4a794698c75fde2491a6c8f46f5b20375f57ff81c645acf98",
+      "bytes": 7157,
+      "imports": [
+        "json",
+        "pathlib",
+        "re"
+      ],
+      "original_file": "work/nh_nonlife_parse.py"
+    },
+    {
+      "file": "work/nh_nonlife_records.py",
+      "company": "NH농협손해보험",
+      "category": "담보 레코드 구성",
+      "sha256": "9593f7e88d25c8b7bee7d3e9c496e27fab7f5a9bc639b086dc8acf660224b506",
+      "bytes": 10293,
+      "imports": [
+        "datetime",
+        "difflib",
+        "json",
+        "pathlib",
+        "re"
+      ],
+      "original_file": "work/nh_nonlife_records.py"
+    },
+    {
+      "file": "work/nh_nonlife_revise.py",
+      "company": "NH농협손해보험",
+      "category": "내용 보완",
+      "sha256": "fbf9c08e27cb710b5c7d170f0c8d7727e86b2f75c84d1b92b2cb4e96b7ff3b00",
+      "bytes": 11367,
+      "imports": [
+        "datetime",
+        "json",
+        "pathlib",
+        "re",
+        "shutil",
+        "statistics"
+      ],
+      "original_file": "work/nh_nonlife_revise.py"
+    },
+    {
+      "file": "work/nh_nonlife_revision_edit.mjs",
+      "company": "NH농협손해보험",
+      "category": "결과 수정·재검증",
+      "sha256": "16c8c8c6f88e69158e2d8eb14eacd5c860618238eb4fa188e6e779191a8fffaa",
+      "bytes": 2763,
+      "imports": [
+        "@oai/artifact-tool",
+        "node:fs/promises"
+      ],
+      "original_file": "work/nh_nonlife_revision_edit.mjs"
+    },
+    {
+      "file": "work/nh_nonlife_revision_verify.py",
+      "company": "NH농협손해보험",
+      "category": "결과 수정·재검증",
+      "sha256": "9331e5ffe27ec3ccd09a89a566ae868efcf932cc0680c9cd478adbc14cd8a11d",
+      "bytes": 2363,
+      "imports": [
+        "json",
+        "lxml",
+        "pathlib",
+        "re",
+        "zipfile"
+      ],
+      "original_file": "work/nh_nonlife_revision_verify.py"
+    },
+    {
+      "file": "work/nh_nonlife_tables.py",
+      "company": "NH농협손해보험",
+      "category": "표 처리",
+      "sha256": "1a5937d9c5ec0786ea322fa844b8b97ebb1811804fa49d9e819463b59293c0cb",
+      "bytes": 957,
+      "imports": [
+        "json",
+        "pathlib",
+        "pdfplumber",
+        "re"
+      ],
+      "original_file": "work/nh_nonlife_tables.py"
+    },
+    {
+      "file": "work/nh_nonlife_text.mjs",
+      "company": "NH농협손해보험",
+      "category": "PDF 텍스트 추출",
+      "sha256": "02b4e87842bcdd103c07a1b16ae48e4d26b7778f260766f1354f9525e58140ea",
+      "bytes": 1538,
+      "imports": [
+        "node:fs/promises",
+        "pdfjs-dist/legacy/build/pdf.mjs"
+      ],
+      "original_file": "work/nh_nonlife_text.mjs"
+    },
+    {
+      "file": "work/nh_nonlife_validate.py",
+      "company": "NH농협손해보험",
+      "category": "검증",
+      "sha256": "b107c85e1a88594f4c056e0d206c0ce9aa8c6a92f7d0ae7d39f97632c4713a65",
+      "bytes": 1475,
+      "imports": [
+        "json",
+        "lxml",
+        "pathlib",
+        "zipfile"
+      ],
+      "original_file": "work/nh_nonlife_validate.py"
+    },
+    {
+      "file": "work/nh_nonlife_workbook.mjs",
+      "company": "NH농협손해보험",
+      "category": "엑셀 생성",
+      "sha256": "c003f59866a8035a129a2e10c28a6c6b3901d91341b517ef9dcfcd48c3d0bcd5",
+      "bytes": 5995,
+      "imports": [
+        "@oai/artifact-tool",
+        "node:fs/promises"
+      ],
+      "original_file": "work/nh_nonlife_workbook.mjs"
+    },
+    {
+      "file": "work/nh_records.py",
+      "company": "NH농협생명",
+      "category": "담보 레코드 구성",
+      "sha256": "0633b18f26998315cf0037c9a5f7415892028c76f8ad73a6d3c7149298d3703a",
+      "bytes": 8591,
+      "imports": [
+        "datetime",
+        "json",
+        "pathlib",
+        "re"
+      ],
+      "original_file": "work/nh_records.py"
+    },
+    {
+      "file": "work/nh_revise.py",
+      "company": "NH농협생명",
+      "category": "내용 보완",
+      "sha256": "fc565fd772c50b88735d3be4be2b8587a065c20bd6121f469b8109b17ce5b3ca",
+      "bytes": 9674,
+      "imports": [
+        "datetime",
+        "json",
+        "pathlib",
+        "re",
+        "shutil",
+        "statistics"
+      ],
+      "original_file": "work/nh_revise.py"
+    },
+    {
+      "file": "work/nh_revision_edit.mjs",
+      "company": "NH농협생명",
+      "category": "결과 수정·재검증",
+      "sha256": "b366ae2cc4f594cb37eb5795907afc0be65158cfacc544f5f5f1fc3be6050741",
+      "bytes": 3056,
+      "imports": [
+        "@oai/artifact-tool",
+        "node:fs/promises"
+      ],
+      "original_file": "work/nh_revision_edit.mjs"
+    },
+    {
+      "file": "work/nh_revision_verify.py",
+      "company": "NH농협생명",
+      "category": "결과 수정·재검증",
+      "sha256": "b09f4d0014034d35d2e537fa93a749c7b1672dac52fba67c0c2edd4b70d070da",
+      "bytes": 2422,
+      "imports": [
+        "json",
+        "lxml",
+        "pathlib",
+        "re",
+        "zipfile"
+      ],
+      "original_file": "work/nh_revision_verify.py"
+    },
+    {
+      "file": "work/nh_text.mjs",
+      "company": "NH농협생명",
+      "category": "PDF 텍스트 추출",
+      "sha256": "8175d1cb72714bf728ce5636ec36f48b9c299e6373278fcfb142a3652f805635",
+      "bytes": 1506,
+      "imports": [
+        "node:fs/promises",
+        "pdfjs-dist/legacy/build/pdf.mjs"
+      ],
+      "original_file": "work/nh_text.mjs"
+    },
+    {
+      "file": "work/nh_validate.py",
+      "company": "NH농협생명",
+      "category": "검증",
+      "sha256": "68ac4e91add40512effb458aa812b28e772ca8bcb67f60f2dce49a1f9981ee05",
+      "bytes": 1457,
+      "imports": [
+        "json",
+        "lxml",
+        "pathlib",
+        "zipfile"
+      ],
+      "original_file": "work/nh_validate.py"
+    },
+    {
+      "file": "work/nh_workbook.mjs",
+      "company": "NH농협생명",
+      "category": "엑셀 생성",
+      "sha256": "791ac3c30b7e75e3988155aad9a2b9bf66ff318bfc5e29eb48ae464d74f42fdc",
+      "bytes": 6398,
+      "imports": [
+        "@oai/artifact-tool",
+        "node:fs/promises"
+      ],
+      "original_file": "work/nh_workbook.mjs"
+    },
+    {
+      "file": "work/pdfjs_extract.mjs",
+      "company": "ABL생명",
+      "category": "PDF 추출",
+      "sha256": "d5cd46b4655a1753ceb1574ce6f6d640cc1939259e125ae0bfe36249b761741a",
+      "bytes": 1198,
+      "imports": [
+        "node:fs/promises",
+        "pdfjs-dist/legacy/build/pdf.mjs"
+      ],
+      "original_file": "work/pdfjs_extract.mjs"
+    },
+    {
+      "file": "work/plan_tables.py",
+      "company": "ABL생명",
+      "category": "표 처리",
+      "sha256": "51355e18922cf2890766073fba8d83b9ebeafe89c23b989a26183f32e9be344f",
+      "bytes": 1695,
+      "imports": [
+        "json",
+        "pathlib",
+        "re"
+      ],
+      "original_file": "work/plan_tables.py"
+    },
+    {
+      "file": "work/review_product_coverages.py",
+      "company": "공통·환경 점검",
+      "category": "DB 예시 조회",
+      "sha256": "ef4ca8af4a45d8bcfec89b0d100756c7ac653c917d4ea70ebebe43ac9d19d5e0",
+      "bytes": 2593,
+      "imports": [
+        "json",
+        "os",
+        "pathlib",
+        "pg8000.native",
+        "sys"
+      ],
+      "original_file": "work/review_product_coverages.py"
+    },
+    {
+      "file": "work/shinhan_audit.py",
+      "company": "신한라이프",
+      "category": "대조·검토 보조",
+      "sha256": "a3607cddef757c630cc4e6d4d8bd0bcee7483b20f16fd6a959eb568eb82ce699",
+      "bytes": 1163,
+      "imports": [
+        "concurrent.futures",
+        "json",
+        "pathlib",
+        "re",
+        "subprocess"
+      ],
+      "original_file": "work/shinhan_audit.py"
+    },
+    {
+      "file": "work/shinhan_extract.py",
+      "company": "신한라이프",
+      "category": "PDF 추출",
+      "sha256": "38a0dbe20155b8e2771127bca83dbcfb46d844f7bd875cbe68a126aaa104555a",
+      "bytes": 860,
+      "imports": [
+        "hashlib",
+        "json",
+        "pathlib",
+        "pypdf"
+      ],
+      "original_file": "work/shinhan_extract.py"
+    },
+    {
+      "file": "work/shinhan_records.py",
+      "company": "신한라이프",
+      "category": "담보 레코드 구성",
+      "sha256": "1e162f1bd5af16bc6304188e70c75a9a35ec227131791177b9e9dee826ca0e44",
+      "bytes": 17250,
+      "imports": [
+        "datetime",
+        "json",
+        "pathlib",
+        "re"
+      ],
+      "original_file": "work/shinhan_records.py"
+    },
+    {
+      "file": "work/shinhan_verify.py",
+      "company": "신한라이프",
+      "category": "검증",
+      "sha256": "d477bbe9eb3e39077bd15e791bd9ea0050840f7e657badc8283a2c4a1744383e",
+      "bytes": 3469,
+      "imports": [
+        "json",
+        "lxml",
+        "pathlib",
+        "re",
+        "zipfile"
+      ],
+      "original_file": "work/shinhan_verify.py"
+    },
+    {
+      "file": "work/shinhan_workbook.mjs",
+      "company": "신한라이프",
+      "category": "엑셀 생성",
+      "sha256": "715ce9a708a9555174c0f4efe9770903a3aaa340f7655aec74332286f761a12d",
+      "bytes": 7288,
+      "imports": [
+        "@oai/artifact-tool",
+        "node:fs/promises"
+      ],
+      "original_file": "work/shinhan_workbook.mjs"
+    },
+    {
+      "file": "work/table_extract.py",
+      "company": "ABL생명",
+      "category": "PDF 추출",
+      "sha256": "96e7ef249717dad13f349847222576073a2a0a8b33a5870844908d1114e6b9e1",
+      "bytes": 1067,
+      "imports": [
+        "json",
+        "pathlib",
+        "pdfplumber",
+        "time"
+      ],
+      "original_file": "work/table_extract.py"
+    },
+    {
+      "file": "work/time_test.mjs",
+      "company": "공통·환경 점검",
+      "category": "일시 표시 점검",
+      "sha256": "e5c9c0a512eb2a5314237d9783ae10c930927d10071659d94b652f0d779a2af2",
+      "bytes": 394,
+      "imports": [
+        "@oai/artifact-tool"
+      ],
+      "original_file": "work/time_test.mjs"
+    },
+    {
+      "file": "work/validate_workbook.py",
+      "company": "ABL생명",
+      "category": "엑셀 생성",
+      "sha256": "431041469aa06f3b7a7f5cddbc6de9d3aea5ff1b3d71b72c19509b3f6ac06368",
+      "bytes": 1668,
+      "imports": [
+        "collections",
+        "json",
+        "lxml",
+        "pathlib",
+        "zipfile"
+      ],
+      "original_file": "work/validate_workbook.py"
+    }
+  ]
+}
